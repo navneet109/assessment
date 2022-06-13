@@ -37,6 +37,6 @@ Run "Terraform Apply"
 
 # What else can be done to secure the achutechutre
 
-1)Encrypt DB password using KMS keys/Hashicorp Vault
-2)Use s3 as backend to store tfstate file.
-3)Use DynamoDB table for maintaing lock on tfstate file.
+ 1. Encrypt DB password using KMS keys/Hashicorp Vault
+ 2. Use s3 as backend to store tfstate file.
+ 3. Use DynamoDB table for maintaing lock on tfstate file.
